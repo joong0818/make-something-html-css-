@@ -5,18 +5,46 @@
         <title>Lake in nature</title>
         
         <style>
+            body{
+                margin: 0px;
+                background-color: #004871;
+            }
+            
+            div {
+                margin: 0px; padding: 0px;
+            }
+
+            p {
+                margin: 0px;
+            }
+            img{
+                display: block;
+                
+                margin: 0 auto;
+            }
+
             #main-image{
+                
+                
+                
                 background-image: url('Lake_with_forest.jpg');
                 background-size: cover;
             }
 
-            #text-image{
-                background-image: url('darkness_.jpg');
-                background-size:  100%;
-                background-position: center;
+            #TextArea{
+                display: block;
+                
+                margin: 0px auto;
+                width: 300px;
+                height: 100%;
 
+                background-image: url('darkness_.jpg');
                 background-repeat: no-repeat;
+                
+                
             }
+
+                
                 
         </style>
 
@@ -29,18 +57,15 @@
         </div>
 
         <!-- 메인 이미지 -->
-        <div id="main-image">
-            <h1>Lake</h1>
-
-        </div>
-        
-        <!-- 위 아래 이미지를 자연스럽게 연결해줄 부분입니다.-->
         <div>
-
+            <img src="Lake_with_forest.jpg" alt="Lake">
         </div>
 
+        <!-- 위 아래 이미지를 자연스럽게 연결해줄 부분입니다.-->
         <!-- 텍스트 -->
-        <div id="text-image">
+        <div id='TextArea'>
+            
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas velit ut facilisis fermentum. Nunc euismod congue elit, in cursus felis mollis id. Donec vitae dictum felis. Suspendisse faucibus massa sed nisi fermentum tincidunt consequat vel ex. Cras bibendum sapien in enim tincidunt ultrices. Morbi eleifend purus varius euismod fermentum. Nunc arcu erat, luctus sit amet lorem sit amet, sagittis hendrerit metus. Proin feugiat dapibus velit, eu viverra nulla tristique feugiat. Ut ut arcu non sem ultricies porttitor vitae quis erat. Sed euismod sem eu ipsum auctor, ac consectetur diam tincidunt. Proin viverra volutpat nisi, a vulputate ligula aliquam sed. Nam facilisis justo ac est varius, sit amet convallis eros condimentum. Aenean viverra tristique velit, scelerisque aliquet urna scelerisque eu. Nunc elementum aliquet diam vel faucibus.</p>
         </div>
     </body>
